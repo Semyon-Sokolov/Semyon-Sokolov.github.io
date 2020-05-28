@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Новости</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="vk.css">
+</head>
+<body>
+	<header>
+		<div class="header__inner">
+			<div class="logo"><img class="logo__foto" src="img/vk.png" alt="logo__foto"></div>
+			<div class="search">
+				<form class="search" action="#" method="POST">
+					<input class="search_text" type="text" name="search" placeholder="Поиск">
+				</form>
+				<a class="icon__header" href="#"><img src="img/bell.png" alt="bell"></a>
+				<a class="icon__header" href="#"><img src="img/player.png" alt="player"></a>
+				<a class="icon__header" href="#"><img src="img/play.png" alt="play"></a>
+			</div>
+			<div class="user__form">
+				<label for="header__drop" class="drop">
+					<span id="user">Семён</span>
+					<img class="user__foto" src="img/semyon-foto.jpg" alt="user-foto">
+					<img class="arrow" src="img/arrow-down.png" alt="arrow-foto">
+				</label>
+					<input class="user__menu" id="header__drop" type="checkbox" name="user">
+				<ul class="user__dropdownmenu">
+						<li><a href="#">Моя страница</a></li>
+						<li><a href="#">Редактировать</a></li>
+						<li><a href="#">Настройки</a></li>
+						<li><a href="#">Помощь</a></li>
+						<li><a href="#">Выйти</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+		<div class="left__column">
+			<nav>	
+				<ol>
+					<li><a href="#"><span><img class="icon" src="img/home.png" alt="home"></span>   Моя страница</a></li>
+					<li><a href="#"><span><img class="icon" src="img/news.png" alt="news"></span>   Новости</a></li>
+					<li><a href="#"><span><img class="icon" src="img/message.png" alt="message"></span>   Сообщения</a></li>
+					<li><a href="#"><span><img class="icon" src="img/friend.png" alt="friend"></span>   Друзья</a></li>
+					<li><a href="#"><span><img class="icon" src="img/group.png" alt="group"></span>   Сообщества</a></li>
+					<li><a href="#"><span><img class="icon" src="img/camera.png" alt="camera"></span>   Фотографии</a></li>
+					<li><a href="#"><span><img class="icon" src="img/player.png" alt="player"></span>   Музыка</a></li>
+					<li id="border1"><a href="#"><span><img class="icon" src="img/ruble.png" alt="ruble"></span>   VK Pay</a></li>
+					<li><a href="#"><span><img class="icon" src="img/bag.png" alt="bag"></span>   Товары</a></li>
+					<li id="border2"><a href="#"><span><img class="icon" src="img/blank.png" alt="blank"></span>   Документы</a></li>
+				</ol>
+				<div class="left__column__bottom">
+					<a class="bottom" href="#">Блог</a>
+					<a class="bottom" href="#">Разработчикам</a>
+					<a class="bottom" href="#">Реклама</a>
+						<label for="left__drop">
+					<a class="bottom" href="#">Ещё</a>
+					<img class="arrow" src="img/arrow-down.png" alt="arrow-foto"></label>
+						<input class="left__menu" id="left__drop" type="checkbox" name="left__drop">
+							<ul class="left__dropdownmenu">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Вакансии</a></li>
+								<li><a href="#">Правовая информация</a></li>
+								<li><a href="#">Защита данных</a></li>
+								<li><a href="#">Центр безопасности</a></li>
+								<li><a href="#">Язык: русский</a></li>
+							</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="central__column">
+			<div class="user__news">
+				<img class="user__foto" src="img/semyon-foto.jpg" alt="user-foto">
+				<input class="what" type="text" name="user" placeholder="Что у вас нового?">
+				<a href="#"><img class="icon" src="img/camera.png" alt="camera"></a>
+				<a href="#"><img class="icon" src="img/film.png" alt="film"></a>
+				<a href="#"><img class="icon" src="img/player.png" alt="player"></a>
+				<a href="#"><img class="icon" src="img/list.png" alt="list"></a>
+				<a href="#"><img class="icon" id="border3" src="img/poster.png" alt="poster"></a>
+			</div>
+			<div class="post__one">
+				<a class="icon__post" href="#"></a>
+				<div class="post__header__info"><a href="#"><h6>Тайны Истории</h6></a>
+				<div class="post__date">три часа назад</div>
+				<div class="content">Три М, Майк Джордан, Маколей Калкин и Майкл Джексон!</div>
+				<div class="post__foto"></div>
+				</div>
+			</div>
+			<div class="post__two">
+				<a class="icon__post" href="#"></a>
+				<div class="post__header__info"><a href="#"><h6>Тайны Истории</h6></a>
+				<div class="post__date">вчера в 18:15</div>
+				<div class="content">Микрофотография блохи из архива Музея Джорджа Истмена, датированная 1865 годом.</div>
+				<div class="post__foto__two"></div>
+				</div>
+			</div>
+		</div>
+		<div class="right__column">
+			<div class="right__sticky">
+			<ol class="right__ol">
+				<a id="black" href="#">Новости
+				<img class="icon__news" src="img/filter.png" alt="filter">
+				<img class="icon__news" src="img/plus.png" alt="plus"></a>
+					<ul class="news">
+						<li><a class="gray" href="#">Фотографии</a></li>
+						<li><a class="gray" href="#">Видеозаписи</a></li>
+						<li><a class="gray" href="#">Подкасты</a></li>
+					</ul>
+							
+				<li><a class="blue" href="#">Рекомендации</a></li>
+				<li id="line"><a class="blue" href="#">Поиск</a></li>
+				<li><a class="blue" href="#">Понравилось</a></li>
+				<li><a class="blue" href="#">Обновления</a></li>
+				<li><a class="blue" href="#">Комментарии</a></li>
+			</ol>
+			<div class="interesting">
+				<img class="icon" src="img/fire.png" alt="fire">
+				<label for="switch" class="check">Сначала интересные
+				</label>
+				<input class="check-switch" type="checkbox" id="switch">
+				<span class="icon__switch"></span>
+			</div>
+			</div>
+		</div>
+	</div>
+	</main>
+</body>
+</html>

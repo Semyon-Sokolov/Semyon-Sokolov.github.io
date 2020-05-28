@@ -1,0 +1,412 @@
+* {
+	font-size: 14px;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	box-sizing: border-box;
+	background: #edeef0;
+	font-family: BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,Noto Sans Armenian,Noto Sans Bengali,Noto Sans Cherokee,Noto Sans Devanagari,Noto Sans Ethiopic,Noto Sans Georgian,Noto Sans Hebrew,Noto Sans Kannada,Noto Sans Khmer,Noto Sans Lao,Noto Sans Osmanya,Noto Sans Tamil,Noto Sans Telugu,Noto Sans Thai,sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #285473;
+}
+
+main {
+	position: relative;
+	padding-top: 58px;
+}
+	
+	/*HEADER*/
+header {
+	background-color: #4682B4;
+	height: 42px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.header__inner {
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.logo {
+	width: 190px;
+	height: 42px;
+}
+
+.logo__foto {
+	height: 35px;
+}
+
+.search {
+	display: flex;
+	justify-content: flex-start;
+	padding-right: 15px;
+	height: 28px;
+}
+
+.search_text {
+	font-size: 13px;
+	color: #fff;
+	padding-left: 30px;
+	border-radius: 30px;
+	width: 230px;
+	background-image: url("img/search.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-color: #224b7a;
+	background-position: 10px;
+	border: 0;
+}
+
+.icon__header {
+	margin: 0px 10px;
+}
+
+.icon__header>img {
+	height: 20px;
+}
+
+.icon__header:hover {
+	background-color: #08457E;
+	height: 25px;
+}
+
+.user__form {	
+	display: flex;
+	justify-content: flex-end;
+	width: 400px;
+	position: relative;
+}
+
+#user {
+	color: #fff;
+	font-size: 12.5px;
+	font-weight: 750;
+}
+
+.user__menu {
+	display: none;
+}
+
+.search>input:focus {
+  background-color: #fff;
+}
+
+.user__menu:checked ~ .user__dropdownmenu {
+	display: block;
+}
+
+.user__foto {
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+}
+
+.user__dropdownmenu {
+	display: none;
+	position: absolute;
+	top: 46px;
+	width: 130px;
+    right: 3px;
+    background: #fff;
+    border: 1px solid #6495ED;
+     
+    padding: 4px 0 4px 15px; 
+    border-radius: 4px;
+}
+
+.user__form>label {
+	cursor: pointer;
+}
+
+.arrow {
+	width: 15px;
+	height: 15px;
+	vertical-align: center;
+}
+
+	/*LEFT__COLUMN*/
+.container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.left__column {
+	width: 150px;
+	padding-left: 7px;
+}
+
+.icon {
+	padding-top: 5px;
+	height: 20px;
+}
+
+nav>ol>li:hover {
+	background-color: #c0d3e4;
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	white-space: pre;
+	list-style: none;
+	line-height: 27px;
+	width: 150px;
+}
+
+#border1 {
+	border-top: 1px solid #939699;
+	border-bottom: 1px solid #939699;
+	padding: 7px 0 7px 0;
+}
+
+#border2 {
+	border-bottom: 1px solid #939699;
+	padding-bottom: 7px;
+}
+
+span {
+	vertical-align: middle;
+}
+
+	/*LEFT__COLUMN__BOTTOM*/
+.left__column__bottom {
+	font-size: 12px;
+	padding-top: 15px;
+}
+
+.bottom {
+	font-size: 12px;
+	padding-right: 10px;
+    color: #939699;
+    white-space: nowrap;
+	line-height: 20px;
+}
+
+.bottom:hover {
+	border-bottom: 1px solid #939699;
+}
+
+.left__menu {
+	display: none;
+}
+
+.left__dropdownmenu {
+	display: none;
+	padding-left: 3px;
+	margin-top: 8px;
+	background-color: #fff;
+	border-radius: 7px;
+}
+
+.left__menu:checked ~ .left__dropdownmenu {
+	display: block;
+}
+
+.left__dropdownmenu>li {
+	list-style: none;
+}
+
+	/* CENTRAL__COLUMN */
+.central__column {
+	width: 500px;
+	border: ;
+}
+
+.user__news {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 52px;
+	border-radius: 4px;
+	font-size:13px;
+	font-weight:400;
+	height:52px;
+	line-height:15px;
+	background-color: #fff;
+}
+
+.what {
+	width: 280px;
+	border: none;
+}
+
+#border3 {
+	border-left: 1px solid #939699;
+	padding-left: 15px;
+}
+
+.post__one, .post__two {
+	margin-top: 15px;
+	padding-top: 15px;
+	display: flex;
+	padding-bottom: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.icon__post {
+	margin-left: 10px;
+	background-image: url("img/history.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.post__header__info {
+	padding-left: 10px;
+}
+
+.post__date {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	color: #808080;
+	font-size: 13px;
+}
+
+.post__foto {
+	background-image: url("img/3M.jpg");
+	margin: 15px 0;
+    display: block;
+    width: 410px;
+    height: 320px;
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+
+.post__foto__two {
+	background-image: url("img/bloha.jpg");
+	margin: 15px 0;
+    display: block;
+    width: 390px;
+    height: 320px;
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+	/* RIGHT__COLUMN */
+.right__column {
+	width: 230px;
+}
+
+.right__sticky {
+	position: fixed;
+	top: 59px;
+	width: 230px;
+}
+
+.right__ol {
+	padding-left: 20px;
+	padding-bottom: 11px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+#black {
+	color: #000;
+	font-weight: 600;
+}
+
+.news {
+	padding-left: 10px;
+}
+
+.news>li {
+	list-style: none;
+	padding-left: 0;
+	width: 175px;
+}
+
+#line {
+	border-bottom: 1px solid #939699;
+}
+
+.icon__right {
+	display: inline;
+}
+
+.gray {
+	color:#656565;
+	font-size: 13px;
+	line-height: 34px;
+}
+
+.blue {
+	line-height: 34px;
+}
+
+.interesting {
+	background-color: #fff;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.icon__news {
+	padding-top: 10px;
+	height: 12px;
+}
+
+ol>li {
+	padding-left: 0;
+	width: 185px;
+	list-style-type: none;
+	border: 0;
+}
+
+ol>li:hover {
+	background-color: #DCDCDC;
+}
+
+ul>li:hover {
+	background-color: #DCDCDC;
+}
+
+.check-switch {
+	display: none;
+}
+
+.interesting {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 0 0 0 10px;
+	height: 40px;
+}
+
+.interesting>label {
+	cursor: pointer;
+}
+
+.icon__switch {
+	display: inline-block;
+	background-image: url("img/switch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    width: 45px;
+    height: 25px;
+}
+
+#switch:checked ~ .icon__switch {
+	display: inline-block;
+	background-image: url("img/switch-2.png");
+}

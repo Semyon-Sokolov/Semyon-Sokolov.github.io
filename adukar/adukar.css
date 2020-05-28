@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 700px;
+	font: Arial, sans-serif;
+	color: #fff;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(46,18,18,0.7)), url("img/kct-2019.jpg") center no-repeat;
+	background-size: cover;
+}
+
+header {
+	
+	
+}
+
+.maincontainer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 20px 20px;
+}
+
+.logo_foto {
+	width: 150px;
+}
+
+nav {
+	text-transform: uppercase;
+	border: 15px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 17px;
+	margin: 10px;
+}
+
+span {
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.nav__link:hover {
+	border-bottom: 2px solid #fff;
+	transition: all 0.3s ease;
+}
+.contact__link {
+	/*display: flex;
+	justify-content: flex-end;*/
+
+	vertical-align: middle;
+    text-align: right;
+    margin: 0;
+
+}
+
+.icon {
+	width: 30px;
+	opacity: 0.7;	
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 1.5;
+	width: 38%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-left: 10px;
+}
+
+.profit {
+	display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 40px;
+
+}
+
+.profit_1, .profit_2, .profit_3 {
+	display: flex;
+	justify-content: center;
+	width: 22%;
+	line-height: 1.55;
+	vertical-align: top;
+	margin: 40px 20px;
+
+}
+ 
+.foto {
+	height: 70px;
+
+}
+
+.bal {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.zapis {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.button {
+	background-color: tomato;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 20px 50px;
+	
+
+}
